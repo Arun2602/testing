@@ -1,0 +1,14 @@
+<org.jenkinsci.plugins.periodicbackup.BackupObject plugin="periodicbackup@1.9">
+  <fileManager class="org.jenkinsci.plugins.periodicbackup.ConfigOnly">
+    <restorePolicy class="org.jenkinsci.plugins.periodicbackup.OverwriteRestorePolicy"/>
+  </fileManager>
+  <storage class="org.jenkinsci.plugins.periodicbackup.ZipStorage">
+    <multiVolume>false</multiVolume>
+    <volumeSize>3999999999</volumeSize>
+  </storage>
+  <location class="org.jenkinsci.plugins.periodicbackup.LocalDirectory">
+    <enabled>true</enabled>
+    <path>/var/jenkins_home</path>
+  </location>
+  <timestamp>2022-07-19 06:05:59.516 UTC</timestamp>
+</org.jenkinsci.plugins.periodicbackup.BackupObject>
